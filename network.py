@@ -26,44 +26,6 @@ def batchnorm(input):
 def dropout(input, keep):
     return tf.nn.dropout(x=input, keep_prob=keep)
 
-def E2Eblock(input, output_dims, num_ROIs):
-    hidden1 = tf.layers.conv2d(input, output_dims, [1, num_ROIs])
-    hidden2 = tf.layers.conv2d(input, output_dims, [num_ROIs, 1])
-    return tf.concat([hidden1] * num_ROIs, 2) + tf.concat([hidden2] * num_ROIs, 1)
-
-
-def BrainNetCNN(input, num_class=2, num_ROIs=114, keep_prob=0.5, reuse=None):
-    with tf.variable_scope("BrainNetCNN") as scope:
-        if reuse:
-            scope.reuse_variables()
-            keep_prob = 1
-
-        # E2E block
-        hidden = E2Eblock(input=input, output_dims=10, num_ROIs=num_ROIs)
-        hidden = tf.nn.leaky_relu(hidden)
-        hidden = tf.nn.dropout(hidden, keep_prob=keep_prob)
-
-        hidden = E2Eblock(input=hidden, output_dims=10, num_ROIs=num_ROIs)
-        hidden = tf.nn.leaky_relu(hidden)
-        hidden = tf.nn.dropout(hidden, keep_prob=keep_prob)
-
-        # E2N block
-        hidden = tf.layers.conv2d(hidden, 20, [1, num_ROIs])
-        hidden = tf.nn.leaky_relu(hidden)
-        hidden = tf.nn.dropout(hidden, keep_prob=keep_prob)
-
-        # N2G block
-        hidden = tf.layers.conv2d(hidden, 40, [num_ROIs, 1])
-        hidden = tf.nn.leaky_relu(hidden)
-        hidden = tf.nn.dropout(hidden, keep_prob=keep_prob)
-
-        # Dense layer
-        hidden = tf.layers.flatten(hidden)
-        decision = tf.layers.dense(hidden, num_class, activation=tf.math.softmax)
-    return decision
-
-
-
 def RSTNN(input, adversarial, keep=0.5, num_class=4, reuse=None):
     with tf.variable_scope("RSTNN") as scope:
         if reuse:
