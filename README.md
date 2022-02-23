@@ -12,7 +12,7 @@ This repository provides a TensorFlow implementation of the following paper:
 
 ## Dependencies
 * [Python 3.6+](https://www.continuum.io/downloads)
-* [TensorFlow 2.0.0+](https://www.tensorflow.org/)
+* [TensorFlow 1.5.0+](https://www.tensorflow.org/)
 
 ## Downloading datasets
 To download BCI Competition IV-2A dataset
