@@ -2,7 +2,7 @@
 
 This repository provides a TensorFlow implementation of the following paper:
 > **Semi-Supervised Deep Adversarial Learning for Brain-Computer Interface**<br>
-> [Wonjun Ko](https://scholar.google.com/citations?user=Fvzg1_sAAAAJ&hl=ko&oi=ao)<sup>1</sup>, [Eunjin Jeon](https://scholar.google.com/citations?user=U_hg5B0AAAAJ&hl=ko)<sup>1</sup>, Jiyeon Lee<sup>1</sup>, [Heung-Il Suk](https://scholar.google.co.kr/citations?user=dl_oZLwAAAAJ&hl=ko)<sup>1, 2</sup><br/>
+> [Wonjun Ko](https://scholar.google.com/citations?user=Fvzg1_sAAAAJ&hl=ko&oi=ao)<sup>1</sup>, [Eunjin Jeon](https://scholar.google.com/citations?user=U_hg5B0AAAAJ&hl=ko)<sup>1</sup>, Jiyeon Lee<sup>1</sup>, and [Heung-Il Suk](https://scholar.google.co.kr/citations?user=dl_oZLwAAAAJ&hl=ko)<sup>1, 2</sup><br/>
 > (<sup>1</sup>Department of Brain and Cognitive Engineering, Korea University) <br/>
 > (<sup>2</sup>Department of Artificial Intelligence, Korea University) <br/>
 > Official version: https://ieeexplore.ieee.org/document/8737345 <br/>
