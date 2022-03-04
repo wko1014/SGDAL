@@ -35,4 +35,4 @@ If you find this work useful for your research, please cite our [paper](https://
 ```
 
 ## Acknowledgements
-This work was supported by the Institute of Information & Communications Technology Planning & Evaluation (IITP) grant funded by the Korea government (No. 2017-0-00451; Development of BCI based Brain and Cognitive Computing Technology for Recognizing User’s Intentions using Deep Learning).
+This work was supported by the Institute of Information & Communications Technology Planning & Evaluation (IITP) grant funded by the Korea government (No. 2017-0-00451 and Development of BCI based Brain and Cognitive Computing Technology for Recognizing User’s Intentions using Deep Learning).
