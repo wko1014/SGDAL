@@ -45,9 +45,7 @@ If you find this work useful for your research, please cite our [paper](https://
 }
 ```
 
-and
-
-TBA:
+and TBA:
 ```
 TBA
 }
