@@ -1,6 +1,6 @@
 ## Semi-Supervised Deep Adversarial Learning for Brain-Computer Interface
 
-<p align="center"><img width="90%" src="files/framework.png" /></p>
+<p align="center"><img width="100%" src="files/framework.png" /></p>
 
 This repository provides a TensorFlow implementation of the following paper:
 > **Semi-Supervised Deep Adversarial Learning for Brain-Computer Interface**<br>
