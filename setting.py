@@ -6,7 +6,7 @@ def create_dir(path):
     return path
 
 # Pathes
-# path = "/home/wonjun/Desktop/pycharm-2017.2.3/PycharmProjects"
+# path = "/Define/Your/Own/Paths/"
 data_path = "."
 # baseline_path = create_dir(path + "/Adversarial_Training/models/baselines")
 # adversarial_path = create_dir(path + "/Adversarial_Training/models/adversarial")
