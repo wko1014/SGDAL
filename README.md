@@ -47,7 +47,7 @@ If you find this work useful for your research, please cite our [conference proc
 }
 ```
 
-and :
+and our [journal paper](https://www.nature.com/articles/s41598-022-08490-9):
 ```
 @article{ko2022semi,
   title={Semi-supervised generative and discriminative adversarial learning for motor imagery-based brain--computer interface},
