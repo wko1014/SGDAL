@@ -35,7 +35,7 @@ To download BCI Competition IV-2A dataset
 `network.py` contains the proposed deep learning architectures, `utils.py` contains functions used for experimental procedures, and `experiment.py` contains the main experimental functions.
 
 ## Citation
-If you find this work useful for your research, please cite our [paper](https://ieeexplore.ieee.org/abstract/document/9061668):
+If you find this work useful for your research, please cite our [paper (conference proceeding)](https://ieeexplore.ieee.org/abstract/document/9061668):
 ```
 @inproceedings{ko2019semi,
   title={Semi-supervised deep adversarial learning for brain-computer interface},
