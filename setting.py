@@ -5,17 +5,10 @@ def create_dir(path):
         os.makedirs(path)
     return path
 
-# Pathes
-# path = 
 data_path = "/Define/Your/Own/Paths/"
-# baseline_path = create_dir(path + "/Adversarial_Training/models/baselines")
-# adversarial_path = create_dir(path + "/Adversarial_Training/models/adversarial")
-# generation_path = create_dir(path + "/Adversarial_Training/figures/generation")
-# activation_path = create_dir(path + "/Adversarial_Training/figures/activation")
-# tsne_path = create_dir(path + "/Adversarial_Training/features")
 
 # Experiment conditions
-subject = 1
+subject = 1 # subject
 batch_size = 64
 total_epoch = 5
 n_noise = 400
