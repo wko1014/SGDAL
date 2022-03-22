@@ -6,8 +6,8 @@ def create_dir(path):
     return path
 
 # Pathes
-# path = "/Define/Your/Own/Paths/"
-data_path = "."
+# path = 
+data_path = "/Define/Your/Own/Paths/"
 # baseline_path = create_dir(path + "/Adversarial_Training/models/baselines")
 # adversarial_path = create_dir(path + "/Adversarial_Training/models/adversarial")
 # generation_path = create_dir(path + "/Adversarial_Training/figures/generation")
