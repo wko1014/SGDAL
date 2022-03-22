@@ -49,7 +49,16 @@ If you find this work useful for your research, please cite our [paper](https://
 
 and TBA:
 ```
-TBA
+@article{ko2022semi,
+  title={Semi-supervised generative and discriminative adversarial learning for motor imagery-based brain--computer interface},
+  author={Ko, Wonjun and Jeon, Eunjin and Yoon, Jee Seok and Suk, Heung-Il},
+  journal={Scientific Reports},
+  volume={12},
+  number={1},
+  pages={1--14},
+  year={2022},
+  publisher={Nature Publishing Group}
+}
 ```
 
 
