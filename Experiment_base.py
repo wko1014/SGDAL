@@ -71,4 +71,4 @@ for epoch in range(st.total_epoch):
     print("Validation accuracy: %f Kappa value: %f"
           % (accuracy_score(y_true=grount_truth, y_pred=prediction), cohen_kappa_score(y1=grount_truth, y2=prediction)))
 
-    saver.save(sess, st.path + "/model%sbj%epoch.ckpt" %(sbj, epoch))
+    saver.save(sess, st.path + "/model%sbj%epoch.ckpt" %(sbj, epoch)) # save model
