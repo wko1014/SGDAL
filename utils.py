@@ -3,6 +3,7 @@ import scipy.io
 import setting as st
 import tensorflow as tf
 
+# Define sliding window
 def rolling_window(a, window):
     def rolling_window_lastaxis(a, window):
         if window < 1:
