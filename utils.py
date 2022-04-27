@@ -2,7 +2,7 @@
 import numpy as np
 import scipy.io
 import setting as st
-import tensorflow as tf
+import tensorflow as tf # TensorFlow 1.5
 
 # Define sliding window
 def rolling_window(a, window):
