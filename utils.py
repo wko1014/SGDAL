@@ -52,7 +52,6 @@ def load_data(sbj, training):
             cur_dat = np.swapaxes(cur_dat, 0, 2)
 
             rolled_dat = rolling_window(cur_dat, (1, 512))
-
             rolled_dat = rolled_dat.reshape(-1, 22, 512)[..., None]
 
             cvdat = np.concatenate((cvdat, rolled_dat), axis=0) #(10584, 22, 512, 1)
