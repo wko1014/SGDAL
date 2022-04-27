@@ -45,10 +45,6 @@ def load_data(sbj, training):
     if training == True:
         data = np.load(path + '/A%02dT.npy' % sbj)
         data = np.array([data[..., :72], data[..., 72:144], data[..., 144:216], data[..., 216:]])
-        # data = np.array([scipy.io.loadmat(path + "/A%02dTClass1" % sbj)["Class1"],
-        #                scipy.io.loadmat(path + "/A%02dTClass2" % sbj)["Class2"],
-        #                scipy.io.loadmat(path + "/A%02dTClass3" % sbj)["Class3"],
-        #                scipy.io.loadmat(path + "/A%02dTClass4" % sbj)["Class4"]]) #(4, 23, 700, 72)
 
         cvdata = data[:, :, :, :7] #(4, 23, 700, 7)
         cvdat = np.empty(shape=(0, 22, 512, 1), dtype=np.float32)
