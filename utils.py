@@ -24,7 +24,6 @@ def rolling_window(a, window):
             a = a.swapaxes(-2, i)
     return a
 
-
 def load_data_v2(sbj, training):
     path = st.data_path
     if training == True:
