@@ -5,7 +5,7 @@ import utils as ut
 import network as nt
 import setting as st
 
-from sklearn.metrics import accuracy_score, cohen_kappa_score
+from sklearn.metrics import accuracy_score, cohen_kappa_score # to evaluate performance
 
 ## Placeholding
 X = tf.placeholder(dtype=tf.float32, shape=[st.batch_size, 22, 512, 1])
