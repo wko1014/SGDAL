@@ -8,7 +8,7 @@ def create_dir(path):
 
 data_path = "/Define/Your/Own/Paths/"
 
-# Experiment conditions
+# Hyperparameter settings
 subject = 1 # subject
 batch_size = 64
 total_epoch = 5
