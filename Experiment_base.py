@@ -1,6 +1,6 @@
 # Import APIs
-import tensorflow as tf # TensorFlow 1.5
 import numpy as np
+import tensorflow as tf # TensorFlow 1.5
 import utils as ut
 import network as nt
 import setting as st
