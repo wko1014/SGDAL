@@ -1,5 +1,5 @@
 # Import APIs
-import tensorflow as tf 
+import tensorflow as tf # TensorFlow 1.5
 # TODO: Translate it to TensorFlow 2.0
 
 def leaky_relu(x):
